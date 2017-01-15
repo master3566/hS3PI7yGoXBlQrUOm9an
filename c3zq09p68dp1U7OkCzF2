@@ -18,8 +18,6 @@ local toggle = Instance.new("TextButton")
 local phantomMain = Instance.new("Frame")
 local phantomTP = Instance.new("TextButton")
 local phantomESP = Instance.new("TextButton")
-local phantomSpeed = Instance.new("TextButton")
-local phantomJump = Instance.new("TextButton")
 local toggleP = Instance.new("TextButton")
 
 -- Properties
@@ -149,26 +147,6 @@ phantomESP.FontSize = Enum.FontSize.Size14
 phantomESP.Text = "ESP"
 phantomESP.TextSize = 14
 
-phantomSpeed.Name = "phantomSpeed"
-phantomSpeed.Parent = phantomMain
-phantomSpeed.BackgroundColor3 = Color3.new(0.482353, 0.760784, 1)
-phantomSpeed.Position = UDim2.new(0.5, -75, 0, 200)
-phantomSpeed.Size = UDim2.new(0, 150, 0, 30)
-phantomSpeed.Font = Enum.Font.SourceSans
-phantomSpeed.FontSize = Enum.FontSize.Size14
-phantomSpeed.Text = "Super Speed"
-phantomSpeed.TextSize = 14
-
-phantomJump.Name = "phantomJump"
-phantomJump.Parent = phantomMain
-phantomJump.BackgroundColor3 = Color3.new(0.482353, 0.760784, 1)
-phantomJump.Position = UDim2.new(0.5, -75, 0, 150)
-phantomJump.Size = UDim2.new(0, 150, 0, 30)
-phantomJump.Font = Enum.Font.SourceSans
-phantomJump.FontSize = Enum.FontSize.Size14
-phantomJump.Text = "Super Jump"
-phantomJump.TextSize = 14
-
 
 
 
@@ -283,7 +261,6 @@ end
 end
 end)
 end)
-
 
 
 
