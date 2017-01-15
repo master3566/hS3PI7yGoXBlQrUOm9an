@@ -1,5 +1,7 @@
 wait(1)
 local closed = false
+print("evolution hub made by Voltz(@Maiz#7198)
+print("Have fun!")
 
 
 -- Objects
