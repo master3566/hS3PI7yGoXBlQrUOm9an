@@ -13,6 +13,7 @@ local awpAttack = Instance.new("TextButton")
 local apoc = Instance.new("TextButton")
 local prisonLife = Instance.new("TextButton")
 local toggle = Instance.new("TextButton")
+local credits = Instance.new("TextLabel")
 
 --phantomForces
 local phantomMain = Instance.new("Frame")
@@ -101,6 +102,17 @@ toggle.TextScaled = true
 toggle.TextSize = 14
 toggle.TextWrapped = true
 
+credits.Name = "credits"
+credits.Parent = game.StarterGui.evolutionHub.title.hubMain
+credits.BackgroundColor3 = Color3.new(1, 1, 1)
+credits.BackgroundTransparency = 1
+credits.Position = UDim2.new(0.5, -100, 0.5, 100)
+credits.Size = UDim2.new(0, 200, 0, 100)
+credits.ZIndex = 2
+credits.Font = Enum.Font.SourceSans
+credits.FontSize = Enum.FontSize.Size14
+credits.Text = "Made By Voltz(Maiz)"
+credits.TextSize = 14
 
 
 -- phantomForces
