@@ -147,7 +147,7 @@ phantomTP.Position = UDim2.new(0.5, -75, 0, 100)
 phantomTP.Size = UDim2.new(0, 150, 0, 30)
 phantomTP.Font = Enum.Font.SourceSans
 phantomTP.FontSize = Enum.FontSize.Size14
-phantomTP.Text = "Bind E to Teleport (Crashy if spam)"
+phantomTP.Text = "Bind E to Teleport)"
 phantomTP.TextSize = 14
 
 phantomESP.Name = "phantomESP"
